@@ -1,26 +1,14 @@
 {
-  "name": "material-dashboard",
+  "name": "aicallagent",
   "version": "3.2.0",
   "description": "Premium Dashboard for Bootstrap 5",
-  "main": "/dashboard.html",
-  "type": "module",
-  "directories": {
-    "example": "root"
-  },
+  "main": "index.html",
   "scripts": {
-    "open-app": "gulp open-app",
-    "start": "npm run open-app",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile-scss": "sass --style expanded --source-map --precision=6 assets/scss/material-dashboard.scss assets/css/material-dashboard.css --quiet",
-    "watch": "npm run compile:scss -- --watch"
+    "build": "echo 'No build step required'",
+    "test": "echo 'No tests specified'"
   },
-  "keywords": [
-    
-  ],
-  "license": "MIT License",
- 
   "devDependencies": {
     "gulp": "5.0.0",
-    "gulp-open": "3.0.1",
     "sass": "1.80.2"
-  }}
+  }
+}
